@@ -12,6 +12,7 @@ import java.util.UUID;
 
 import cn.edu.seu.cose.register.RegisterActivity;
 import cn.edu.seu.datatransportation.BluetoothDataTransportation;
+import cn.edu.seu.gesturepassword.LockActivity;
 import cn.edu.seu.login.LoginActivity;
 import cn.edu.seu.main.R;
 import cn.edu.seu.saler.InputActivity;
@@ -54,8 +55,20 @@ public class MainActivity extends Activity {
 	public static final String PROTOCOL_SCHEME_RFCOMM = "btspp";
 	public static  BluetoothDataTransportation bdt=new BluetoothDataTransportation();
 	private TextView receive;
-	public static boolean s=true;
 	public static PersonInfo person=new PersonInfo();
+	public static boolean s = true;
+	private BroadcastReceiver receiver = new BroadcastReceiver(){
+
+		public void onReceive(Context context, Intent intent) {
+			// TODO Auto-generated method stub
+			if(s){
+				Intent it = new Intent(MainActivity.this , LockActivity.class);
+				startActivity(it);
+				s = false;
+			}
+		}	
+	};
+	
 	private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -75,6 +88,10 @@ public class MainActivity extends Activity {
      public void onCreate(Bundle savedInstanceState) { 
          super.onCreate(savedInstanceState); 
          setContentView(R.layout.main); 
+         
+         final IntentFilter filter = new IntentFilter();
+ 		filter.addAction(Intent.ACTION_SCREEN_OFF);
+ 		registerReceiver(receiver,filter);
          //初始化person信息
          {
         	 person.setUsername("Chris");
