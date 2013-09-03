@@ -10,9 +10,12 @@ import java.util.List;
 
 import java.util.UUID;
 
+import cn.edu.seu.cose.register.RegisterActivity;
 import cn.edu.seu.datatransportation.BluetoothDataTransportation;
+import cn.edu.seu.login.LoginActivity;
 import cn.edu.seu.main.R;
 import cn.edu.seu.saler.InputActivity;
+import cn.edu.seu.saler.QRcodeActivity;
 import cn.edu.seu.saler.WaitingPayThread;
 import cn.edu.seu.xml.PersonInfo;
 import android.app.Activity;
@@ -31,6 +34,7 @@ import android.os.Message;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -40,7 +44,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 public class MainActivity extends Activity {
     /** Called when the activity is first created. */
-	Button btnSearch, btnDis, btnExit,btnSend,btnOpen; 
+	Button btnSearch, btnDis, btnExit,btnSend,btnOpen,qrcode; 
 	ToggleButton tbtnSwitch; 
 	ListView lvBTDevices; 
 	ArrayAdapter<String> adtDevices; 
@@ -87,6 +91,15 @@ public class MainActivity extends Activity {
          btnOpen=(Button)findViewById(R.id.open);
          btnOpen.setOnClickListener(new ClickEvent());
          receive=(TextView)findViewById(R.id.receive);
+         qrcode = (Button) this.findViewById(R.id.qrcode); 
+         qrcode.setOnClickListener(new OnClickListener(){
+
+			public void onClick(View arg0) {
+				Intent it = new Intent(MainActivity.this , QRcodeActivity.class);
+				startActivity(it);
+			}
+        	 
+         });
          // ToogleButton设置 
          tbtnSwitch = (ToggleButton) this.findViewById(R.id.tbtnSwitch); 
          tbtnSwitch.setOnClickListener(new ClickEvent()); 

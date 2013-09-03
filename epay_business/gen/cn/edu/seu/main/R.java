@@ -132,7 +132,7 @@ containing a value of this type.
     public static final class id {
         public static final int EditText01=0x7f070014;
         public static final int LinearLayout1=0x7f070060;
-        public static final int ProgressBar=0x7f07007b;
+        public static final int ProgressBar=0x7f07007d;
         public static final int RelativeLayout01=0x7f070041;
         public static final int RelativeLayout02=0x7f070047;
         public static final int RelativeLayout03=0x7f070048;
@@ -142,26 +142,26 @@ containing a value of this type.
         public static final int TextView03=0x7f070010;
         public static final int TextView04=0x7f070011;
         public static final int account=0x7f070051;
-        public static final int account_label=0x7f070073;
+        public static final int account_label=0x7f070075;
         /**  Messages IDs 
          */
         public static final int auto_focus=0x7f070000;
         public static final int barcode=0x7f07002b;
         public static final int barcode1=0x7f07001e;
-        public static final int btnConfirm=0x7f070084;
+        public static final int btnConfirm=0x7f070086;
         public static final int btnDis=0x7f070068;
         public static final int btnExit=0x7f070062;
-        public static final int btnOpen=0x7f070082;
-        public static final int btnSearch=0x7f070081;
+        public static final int btnOpen=0x7f070084;
+        public static final int btnSearch=0x7f070083;
         public static final int btn_cancel_scan=0x7f07001a;
         public static final int btn_link_label=0x7f07003f;
         public static final int btn_link_submit=0x7f07003e;
-        public static final int btn_register=0x7f070072;
+        public static final int btn_register=0x7f070074;
         public static final int button1=0x7f07000f;
         public static final int button2=0x7f070016;
         public static final int button3=0x7f070017;
         public static final int button4=0x7f070029;
-        public static final int button_label=0x7f070079;
+        public static final int button_label=0x7f07007b;
         public static final int cardNum=0x7f070033;
         public static final int cardNum_label=0x7f070034;
         public static final int cardPwd=0x7f070036;
@@ -169,7 +169,7 @@ containing a value of this type.
         public static final int cardnum=0x7f07004d;
         public static final int cash=0x7f07004b;
         public static final int cashbtn=0x7f07004e;
-        public static final int confirm1=0x7f070070;
+        public static final int confirm1=0x7f070072;
         public static final int confirm2=0x7f07002f;
         public static final int confirm3=0x7f070021;
         public static final int confirm4=0x7f070026;
@@ -179,9 +179,9 @@ containing a value of this type.
         public static final int decode_failed=0x7f070002;
         public static final int decode_succeeded=0x7f070003;
         public static final int editText1=0x7f070012;
-        public static final int editText2=0x7f07006a;
-        public static final int editText3=0x7f07006b;
-        public static final int editText4=0x7f070078;
+        public static final int editText2=0x7f07006b;
+        public static final int editText3=0x7f07006c;
+        public static final int editText4=0x7f07007a;
         public static final int encode_failed=0x7f070004;
         public static final int encode_succeeded=0x7f070005;
         public static final int goodsinfo=0x7f07002a;
@@ -189,6 +189,7 @@ containing a value of this type.
         public static final int goon=0x7f07002e;
         public static final int idCardNum=0x7f07003c;
         public static final int idCardNum_label=0x7f07003d;
+        public static final int imageView1=0x7f070071;
         public static final int launch_product_query=0x7f070006;
         public static final int linearLayout2=0x7f070061;
         public static final int link1=0x7f070031;
@@ -201,9 +202,9 @@ containing a value of this type.
         public static final int listView1=0x7f07002d;
         public static final int listView2=0x7f070020;
         public static final int login=0x7f07004f;
-        public static final int lpv_lock=0x7f070069;
-        public static final int lpv_lock_first=0x7f07007c;
-        public static final int lpv_lock_second=0x7f07007d;
+        public static final int lpv_lock=0x7f07006a;
+        public static final int lpv_lock_first=0x7f07007e;
+        public static final int lpv_lock_second=0x7f07007f;
         public static final int lr_button=0x7f07005f;
         public static final int lr_cardNum=0x7f07005d;
         public static final int lr_cardNum_label=0x7f07005e;
@@ -218,29 +219,30 @@ containing a value of this type.
         public static final int lr_userName=0x7f070054;
         public static final int lr_userName_label=0x7f070055;
         public static final int lr_userName_title=0x7f070053;
-        public static final int lvDevices=0x7f070083;
+        public static final int lvDevices=0x7f070085;
         public static final int message=0x7f070064;
-        public static final int minus=0x7f07006e;
+        public static final int minus=0x7f07006f;
         public static final int name=0x7f07004a;
-        public static final int numberPicker=0x7f07007f;
+        public static final int numberPicker=0x7f070081;
         public static final int open=0x7f070063;
         public static final int phoneNum=0x7f070039;
         public static final int phoneNum_label=0x7f07003a;
         public static final int picker=0x7f07002c;
-        public static final int plus=0x7f07006c;
+        public static final int plus=0x7f07006d;
         public static final int preview_view=0x7f070018;
         public static final int price=0x7f070024;
         public static final int price1=0x7f07001d;
-        public static final int progressBar=0x7f07006f;
-        public static final int progressBar_Account=0x7f07007a;
+        public static final int progressBar=0x7f070070;
+        public static final int progressBar_Account=0x7f07007c;
         public static final int pwd=0x7f070050;
-        public static final int pwd1_label=0x7f070074;
-        public static final int pwd2_label=0x7f070075;
-        public static final int quantity=0x7f07006d;
+        public static final int pwd1_label=0x7f070076;
+        public static final int pwd2_label=0x7f070077;
+        public static final int qrcode=0x7f070069;
+        public static final int quantity=0x7f07006e;
         public static final int quit=0x7f070007;
-        public static final int realName_label=0x7f070077;
+        public static final int realName_label=0x7f070079;
         public static final int receive=0x7f070065;
-        public static final int receiverInfo=0x7f070071;
+        public static final int receiverInfo=0x7f070073;
         public static final int receivername=0x7f070027;
         public static final int restart_preview=0x7f070008;
         public static final int return_scan_result=0x7f070009;
@@ -248,17 +250,17 @@ containing a value of this type.
         public static final int search_book_contents_succeeded=0x7f07000b;
         public static final int send=0x7f070066;
         public static final int spinner1=0x7f070028;
-        public static final int storeInfo=0x7f07007e;
+        public static final int storeInfo=0x7f070080;
         public static final int t1=0x7f070046;
         public static final int t2=0x7f070044;
         public static final int t3=0x7f070045;
         public static final int t4=0x7f070042;
         public static final int tbtnSwitch=0x7f070067;
-        public static final int text=0x7f070080;
+        public static final int text=0x7f070082;
         public static final int textView1=0x7f07000c;
         public static final int textView2=0x7f07000d;
         public static final int textView3=0x7f07000e;
-        public static final int textView4=0x7f070076;
+        public static final int textView4=0x7f070078;
         public static final int time=0x7f07004c;
         public static final int title_linkbankcard=0x7f070030;
         public static final int total=0x7f070023;
@@ -296,18 +298,19 @@ containing a value of this type.
         public static final int modifypersoninfo=0x7f03001a;
         public static final int picker=0x7f03001b;
         public static final int progress=0x7f03001c;
-        public static final int receiver=0x7f03001d;
-        public static final int record=0x7f03001e;
-        public static final int register=0x7f03001f;
-        public static final int relogin=0x7f030020;
-        public static final int reset=0x7f030021;
-        public static final int set_first=0x7f030022;
-        public static final int set_second=0x7f030023;
-        public static final int store=0x7f030024;
-        public static final int test=0x7f030025;
-        public static final int titlebar=0x7f030026;
-        public static final int transfer=0x7f030027;
-        public static final int transferprice=0x7f030028;
+        public static final int qrcode=0x7f03001d;
+        public static final int receiver=0x7f03001e;
+        public static final int record=0x7f03001f;
+        public static final int register=0x7f030020;
+        public static final int relogin=0x7f030021;
+        public static final int reset=0x7f030022;
+        public static final int set_first=0x7f030023;
+        public static final int set_second=0x7f030024;
+        public static final int store=0x7f030025;
+        public static final int test=0x7f030026;
+        public static final int titlebar=0x7f030027;
+        public static final int transfer=0x7f030028;
+        public static final int transferprice=0x7f030029;
     }
     public static final class raw {
         public static final int beep=0x7f040000;
@@ -402,7 +405,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:aspect
+          @attr name cn.edu.seu.main:aspect
         */
         public static final int LockPatternView_aspect = 0;
     };
