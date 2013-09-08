@@ -5,50 +5,71 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/btnTran"
+    <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnClo"
-        android:layout_alignBottom="@+id/btnClo"
-        android:layout_alignLeft="@+id/btnExit"
-        android:layout_alignParentRight="true"
-        android:text="@string/transfer" />
-
-    <Button
-        android:id="@+id/btnSta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="58dp"
-        android:text="@string/pay" />
-
-    <Button
+        android:layout_height="wrap_content" >
+    <Button
         android:id="@+id/btnExit"
-        android:layout_width="101dp"
+        android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/btnSta"
-        android:text="@string/exit" />
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:text="btnExit" />
+    
+    </LinearLayout>
 
     <Button
-        android:id="@+id/btnClo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/btnSta"
-        android:layout_below="@+id/btnExit"
-        android:layout_marginTop="104dp"
-        android:text="@string/closePair" />
-
-    <Button
-        android:id="@+id/btnCheck"
+        android:id="@+id/open"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
-        android:layout_toRightOf="@+id/btnClo"
-        android:text="@string/checklist" />
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:text="打开服务器" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="send" />
+
+    <ToggleButton
+        android:id="@+id/tbtnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/open"
+        android:layout_alignParentRight="true"
+        android:text="tbtnSwitch" />
+
+    <Button
+        android:id="@+id/btnDis"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/open"
+        android:layout_alignLeft="@+id/send"
+        android:text="btnDis" />
 
 </RelativeLayout>

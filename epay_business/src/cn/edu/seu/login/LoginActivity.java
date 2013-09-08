@@ -107,9 +107,9 @@ public class LoginActivity extends Activity {
 		findback.setOnClickListener(new OnClickListener(){
 
 			public void onClick(View arg0) {
-				Intent it = new Intent(LoginActivity.this , FunctionActivity.class);
+				/*Intent it = new Intent(LoginActivity.this , FunctionActivity.class);
 				startActivity(it);
-				finish();
+				finish();*/
 			}
 			
 		});

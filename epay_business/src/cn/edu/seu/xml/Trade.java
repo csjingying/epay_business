@@ -1,7 +1,5 @@
 package cn.edu.seu.xml;
 
-import android.util.Log;
-
 
 public class Trade {
 
@@ -29,7 +27,7 @@ public class Trade {
 		this.setPayerCardNumber(payercardnumber);
 		this.setReceiverDevice(receiverdevice);
 		this.setReceiverIMEI(receiverimei);
-		this.setReceiverName(receivername);
+		this.setReceiverCardNumber(receivercardnumber);
 		this.setReceiverCardNumber(receivercardnumber);
 		this.setTradeTime(tradetime);
 		this.setTotalPrice(totalprice);

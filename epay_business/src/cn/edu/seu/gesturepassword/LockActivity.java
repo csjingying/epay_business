@@ -15,7 +15,6 @@ import android.widget.Toast;
 import cn.edu.seu.gesturepassword.LockPatternView.Cell;
 import cn.edu.seu.gesturepassword.LockPatternView.DisplayMode;
 import cn.edu.seu.gesturepassword.LockPatternView.OnPatternListener;
-import cn.edu.seu.login.FunctionActivity;
 import cn.edu.seu.login.Mapplication;
 import cn.edu.seu.login.ReloginActivity;
 import cn.edu.seu.main.MainActivity;

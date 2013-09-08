@@ -42,10 +42,6 @@
             android:name="cn.edu.seu.login.ReloginActivity"
             android:label="@string/title_activity_main" >
         </activity>
-         <activity
-            android:name="cn.edu.seu.login.FunctionActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
         <activity
             android:name="cn.edu.seu.gesturepassword.SetSecondActivity"
             android:label="@string/title_activity_main" >
@@ -68,26 +64,6 @@
         </activity>
         <activity
             android:name="cn.edu.seu.personinfomodify.ModifyPersonInfoActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.financing.FinancingActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.financing.DepositFirstActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.financing.DepositSecondActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.financing.DepositThirdActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.financing.InterestFirstActivity"
             android:label="@string/title_activity_main" >
         </activity>
         <activity
@@ -119,27 +95,7 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="cn.edu.seu.pay.ConfirmPriceActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.pay.StoreInfoActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
             android:name="cn.edu.seu.check.DetailActivity"
-            android:label="@string/app_name" >
-        </activity>
-         <activity
-            android:name="cn.edu.seu.transfer.TransferActivity"
-            android:label="@string/app_name" >
-        </activity>
-         <activity
-            android:name="cn.edu.seu.transfer.TransferPriceActivity"
-            android:label="@string/app_name" >
-        </activity>
-         <activity
-            android:name="cn.edu.seu.transfer.ReceiverInfoActivity"
             android:label="@string/app_name" >
         </activity>
          <activity
@@ -150,13 +106,8 @@
             android:windowSoftInputMode="stateAlwaysHidden" >
             
         </activity>
-         <activity
-            android:name="cn.edu.seu.pay.GoodsListActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="cn.edu.seu.pay.ConfirmListActivity"
-            android:label="@string/app_name" >
+         <activity android:name="cn.edu.seu.saler.InputActivity">
+            
         </activity>
         <receiver android:name="cn.edu.seu.datatransportation.PairingRequest">
                   <intent-filter>
